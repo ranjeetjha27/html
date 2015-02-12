@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*	CSS Document Written by Ranjeet Jha (UI Designer &amp; Front-End Developer)(http://www.netcode.in)
+*	In this file you will find all the classes used in site with proper comments.
+*	This file is copyright to Ranjeet Jha and no reproduction of this file is allowed without the prior written permission from Ranjeet JHa
+*	Version of file : V1.0
+*/
+
+/*-------Font-------*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+/*----------------------------------Start Reset-------------------------------------*/
+
+html, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, hgroup, menu, nav, section, summary, time, mark, audio, video, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+nav ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+input, select {
+	vertical-align: middle;
+}
+a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+li {
+	list-style: none;
+}
+input {
+	border: none;
+	cursor: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a, button, a:active, button:active, a:focus, button:focus, a:hover, button:hover {
+	cursor: pointer;
+	outline: none;
+	-webkit-appearance: none;
+}
+input, input:active, input:focus, input:hover, textarea:hover, textarea:active, textarea:focus, textarea {
+	outline: none;
+	-webkit-appearance: none;
+}
+textarea {
+	resize: none;
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: 0 0 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+	vertical-align: middle;
+	outline: none;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+.pie {
+	behavior: url(PIE.htc);
+	position: relative;
+}
+.full-width {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.form-control:focus {
+	border-color: #d0d0d0;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 0px rgba(102, 175, 233, 0.6);
+	outline: 0 none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: none;
+	outline-offset: 0;
+}
+/*----------------------------------Reset End-------------------------------------*/
